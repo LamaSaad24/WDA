@@ -1,0 +1,38 @@
+header {
+    height: 60vh;
+    background-color: #17161A;
+    background-image: url('../img/organizational-analysis-cover.webp');
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: -1;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    color: #FFF;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+/* start footer */
+footer{
+    background-color: #17161A;
+    color: #FFF;
+}

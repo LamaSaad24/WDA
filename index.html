@@ -1,0 +1,71 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- import bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- import main style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Data Analysis Results</title>
+</head>
+
+<body>
+    <!-- start header  -->
+    <header id="home">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="text-capitalize">Data Analysis results</h1>
+            </div>
+        </div>
+    </header>
+    <!-- end header  -->
+    
+    <main>
+        <div class="container  my-3">
+            <div class="row">
+                <div class="col-md-6 my-2">
+                    <h2>Top 10 Selling Products</h2>
+                    <canvas id="topSellingProds"></canvas>
+                </div>
+                <div class="col-md-6 my-2">
+                    <h2>Last 10 Selling Products</h2>
+                    <canvas id="lowSellingProds"></canvas>
+                </div>
+                <div class="col-md-6 my-2">
+                    <h2>Top 10 Revenue Products</h2>
+                    <canvas id="TopTotalRevenueProds"></canvas>
+                </div>
+                <div class="col-md-6 my-2">
+                    <h2>Last 10 Revenue Products</h2>
+                    <canvas id="LastTotalRevenueProds"></canvas>
+                </div>
+                <div class="col-md-6 my-2">
+                    <h2>Top 5 Revenue Cities</h2>
+                    <canvas id="TopRevenueCities"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- start footer  -->
+    <footer class="py-3">
+        <div class="container text-center">
+            <p class="text-center m-0">All Rights Reseved &copy; Web Data Analysis 2024</p>
+        </div>
+    </footer>
+    <!-- end footer  -->
+
+
+    <!-- import bootstrap js  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Include Chart.js library from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- import main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
