@@ -1,10 +1,9 @@
 </html>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -14,6 +13,12 @@
     <!-- import main style -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Data Analysis Results</title>
+    <style>
+        p {
+            text-align: right;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,24 +34,34 @@
     <main>
         <div class="container  my-3">
             <div class="row">
-                <div class="col-md-6 my-2">
-                    <h2>Top 10 Selling Products</h2>
+                <div class="col-md-6 my-3">
+                    <h2 class="text-center mb-4 text-primary">Top 10 Selling Products</h2>
                     <img src="assets/img/image1.png" class="w-100" />
                 </div>
-                <div class="col-md-6 my-2">
-                    <h2>Last 10 Selling Products</h2>
-                    <img src="assets/img/image3.png" class="w-100" />
-                </div>
-                <div class="col-md-6 my-2">
-                    <h2>Top 10 Revenue Products</h2>
+                <div class="col-md-6 my-3">
+                    <h2 class="text-center mb-4">Last 10 Selling Products</h2>
                     <img src="assets/img/image2.png" class="w-100" />
                 </div>
-                <div class="col-md-6 my-2">
-                    <h2>Last 10 Revenue Products</h2>
+                <div class="col-12 my-3">
+                    <p> نلاحظ أن المنتج S18_3232 يحقق أعلى مبيعات وإيرادات وبذلك نجد أنه الأكثر طلبا وشراء في هذه الحالة
+                        يجب الاستفاده منه من خلال : </p>
+                    <p> 1- التركيز في التسويق عليه أكثر من خلال حملات مستهدفة أو مواقع التواصل الاجتماعي. <br> 2- التأكد
+                        الدائم من توافر كميات كافية للمنتج في المخازن <br> 3- يمكن العمل على توسيع خطوط الإنتاج الخاصه
+                        بالمنتج أو تقديم منتجات جديدة ذات صلة فيه. </p>
+                    <p> أما بالنسبة للمنتجات الباقية التي تحقق أعلى مبيعات وايرادات لكنها ليس بمستوى المنتج s18_3232
+                        (نلاحظ أنها تقريبا تحقق نصف ماحقق S18_3232) لذلك يجب دراسة عوامل نجاح هذا المنتج يمكن لديه ميزات
+                        فريدة أو بناء على عوامل خارجية , يجب معرفتها للاستفاده منها مع باقي المنتجات. </p>
+                </div>
+                <div class="col-md-6 my-3">
+                    <h2 class="text-center mb-4">Top 10 Revenue Products</h2>
+                    <img src="assets/img/image3.png" class="w-100" />
+                </div>
+                <div class="col-md-6 my-3">
+                    <h2 class="text-center mb-4">Last 10 Revenue Products</h2>
                     <img src="assets/img/image4.png" class="w-100" />
                 </div>
-                <div class="col-md-6 my-2">
-                    <h2>Top 5 Revenue Cities</h2>
+                <div class="col-md-6 my-3">
+                    <h2 class="text-center mb-4">Top 5 Revenue Cities</h2>
                     <img src="assets/img/image5.png" class="w-100" />
                 </div>
             </div>
