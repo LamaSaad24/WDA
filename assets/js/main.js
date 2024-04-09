@@ -1,5 +1,5 @@
 //show cites by revenue
-fetch('assets/sales_data_sample.csv')
+fetch('assets/processed_sales_data')
   .then(response => response.text())
   .then(csv => {
     const data = csv.split('\n').map(row => row.split(','));
@@ -79,7 +79,7 @@ function rendercitiesChart(cities, revenues, title) {
 }
 
 //show the 10 selling products
-fetch('assets/sales_data_sample.csv')
+fetch('assets/processed_sales_data')
   .then(response => response.text())
   .then(csv => {
     const data = csv.split('\n').map(row => row.split(','));
@@ -176,7 +176,7 @@ function renderLowSellingChart(products, quantities) {
 }
 
 //show products by revenue
-fetch('assets/sales_data_sample.csv')
+fetch('assets/processed_sales_data')
   .then(response => response.text())
   .then(csv => {
     const data = csv.split('\n').map(row => row.split(','));
